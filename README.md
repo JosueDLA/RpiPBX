@@ -20,12 +20,12 @@ We start with the isntallation of the PBX server, for this we will use Etcher, i
 - Select the drive
 - Flash
 
-![interpreter](images/etcher.|)
+![Etcher](images/etcher.|)
 
 Once we finished, we can insert the MicroSd on the Rpi and hook it to our local network.
 Now we can connect to the Rpi with Putty via SSH.
 
-![interpreter](images/putty.PNG)
+![Putty](images/putty.PNG)
 
  To start the SSH communication we need to log in, the default credentials for RasPBX are:
 
@@ -34,29 +34,29 @@ User: root
 Pasword: raspberry
 ```
 
-![interpreter](images/login.PNG)
+![Login](images/login.PNG)
 
 Before we start seting up our PBX we need to update our RasPBX version and install Fail2Ban.
 
-![interpreter](images/fail2ban.PNG)
+![Fail2Ban](images/fail2ban.PNG)
 
 Now we can access the dashboard and configure our SoftPhone extensions. The default host is: http://raspbx.local. The first time you access the dashboard you will see a configuration page, here you will setup your user credentials and select a server name.
 
-![interpreter](images/setup.PNG)
+![Setup](images/setup.PNG)
 
 Once you finished seting up your user, you can log in.
 
-![interpreter](images/landing-page.PNG)
+![Landing Page](images/landing-page.PNG)
 
-![interpreter](images/dashboard.PNG)
+![Dashboard](images/dashboard.PNG)
 
 ## Setting up custom Extensions
 
 To configure your own extensions go to the Applications tab on the Nav Bar, here you can create your new extension.
 
-![interpreter](images/extensions.PNG)
+![Extensions](images/extensions.PNG)
 
-![interpreter](images/extensions-101.PNG)
+![Extensions](images/extensions-101.PNG)
 
 ## Setting up SoftPhones
 
@@ -64,18 +64,18 @@ Using ZoiPer you can make calls with the extensions you previosly made. To log i
 * Username: The extension you want to use
 * Password: Password provided by FreePBX
 
-![interpreter](images/zoiper-1.PNG)
+![Zoiper](images/zoiper-1.PNG)
 
 ZoiPer will ask for the hostname, we will use the server IP as our host.
 
-![interpreter](images/zoiper-2.PNG)
+![Zoiper](images/zoiper-2.PNG)
 
 We will skip the optional authentication and proxy, finally ZoiPer will detect the PBX configuration.
 
-![interpreter](images/zoiper-3.PNG)
+![Zoiper](images/zoiper-3.PNG)
 
 Now that we finished setting up ZoiPer, we can make calls using the extensions of our users.
 
-![interpreter](images/zoiper-4.PNG)
+![Zoiper](images/zoiper-4.PNG)
 
-![interpreter](images/zoiper-5.PNG)
+![Zoiper](images/zoiper-5.PNG)
