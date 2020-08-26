@@ -20,12 +20,12 @@ We start with the isntallation of the PBX server, for this we will use Etcher, i
 - Select the drive
 - Flash
 
-![Etcher](images/etcher.|)
+![Etcher](https://github.com/JosueDLA/RpiPBX/blob/master/images/etcher.|)
 
 Once we finished, we can insert the MicroSd on the Rpi and hook it to our local network.
 Now we can connect to the Rpi with Putty via SSH.
 
-![Putty](images/putty.PNG)
+![Putty](https://github.com/JosueDLA/RpiPBX/blob/master/images/putty.PNG)
 
  To start the SSH communication we need to log in, the default credentials for RasPBX are:
 
@@ -34,29 +34,29 @@ User: root
 Pasword: raspberry
 ```
 
-![Login](images/login.PNG)
+![Login](https://github.com/JosueDLA/RpiPBX/blob/master/images/login.PNG)
 
 Before we start seting up our PBX we need to update our RasPBX version and install Fail2Ban.
 
-![Fail2Ban](images/fail2ban.PNG)
+![Fail2Ban](https://github.com/JosueDLA/RpiPBX/blob/master/images/fail2ban.PNG)
 
 Now we can access the dashboard and configure our SoftPhone extensions. The default host is: http://raspbx.local. The first time you access the dashboard you will see a configuration page, here you will setup your user credentials and select a server name.
 
-![Setup](images/setup.PNG)
+![Setup](https://github.com/JosueDLA/RpiPBX/blob/master/images/setup.PNG)
 
 Once you finished seting up your user, you can log in.
 
-![Landing Page](images/landing-page.PNG)
+![Landing Page](https://github.com/JosueDLA/RpiPBX/blob/master/images/landing-page.PNG)
 
-![Dashboard](images/dashboard.PNG)
+![Dashboard](https://github.com/JosueDLA/RpiPBX/blob/master/images/dashboard.PNG)
 
 ## Setting up custom Extensions
 
 To configure your own extensions go to the Applications tab on the Nav Bar, here you can create your new extension.
 
-![Extensions](images/extensions.PNG)
+![Extensions](https://github.com/JosueDLA/RpiPBX/blob/master/images/extensions.PNG)
 
-![Extensions](images/extensions-101.PNG)
+![Extensions](https://github.com/JosueDLA/RpiPBX/blob/master/images/extensions-101.PNG)
 
 ## Setting up SoftPhones
 
@@ -64,18 +64,18 @@ Using ZoiPer you can make calls with the extensions you previosly made. To log i
 * Username: The extension you want to use
 * Password: Password provided by FreePBX
 
-![Zoiper](images/zoiper-1.PNG)
+![Zoiper](https://github.com/JosueDLA/RpiPBX/blob/master/images/zoiper-1.PNG)
 
 ZoiPer will ask for the hostname, we will use the server IP as our host.
 
-![Zoiper](images/zoiper-2.PNG)
+![Zoiper](https://github.com/JosueDLA/RpiPBX/blob/master/images/zoiper-2.PNG)
 
 We will skip the optional authentication and proxy, finally ZoiPer will detect the PBX configuration.
 
-![Zoiper](images/zoiper-3.PNG)
+![Zoiper](https://github.com/JosueDLA/RpiPBX/blob/master/images/zoiper-3.PNG)
 
 Now that we finished setting up ZoiPer, we can make calls using the extensions of our users.
 
-![Zoiper](images/zoiper-4.PNG)
+![Zoiper](https://github.com/JosueDLA/RpiPBX/blob/master/images/zoiper-4.PNG)
 
-![Zoiper](images/zoiper-5.PNG)
+![Zoiper](https://github.com/JosueDLA/RpiPBX/blob/master/images/zoiper-5.PNG)
