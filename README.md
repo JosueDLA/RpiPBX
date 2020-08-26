@@ -13,14 +13,14 @@ VoIP is the acronym for the voice over Internet Protocol. This is a methodology 
 * [Putty](https://www.putty.org/)
 * Ethernet Cable
 
-##Instalation
+## Instalation
 We start with the isntallation of the PBX server, for this we will use Etcher, it is a tool that allows us to flash the image on a MicroSD in 3 steps:
 
 - Select the image
 - Select the drive
 - Flash
 
-![Etcher](images/etcher.|)
+![Etcher](images/etcher.PNG)
 
 Once we finished, we can insert the MicroSd on the Rpi and hook it to our local network.
 Now we can connect to the Rpi with Putty via SSH.
